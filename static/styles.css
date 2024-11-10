@@ -1,5 +1,4 @@
 body {
-    background: url('{{ url_for('static', filename='Complex2.jpg') }}') no-repeat center center fixed;
     background-size: cover;
     color: orange;
     font-family: 'Arial', sans-serif;
