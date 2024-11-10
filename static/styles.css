@@ -1,0 +1,39 @@
+body {
+    background: url('Complex2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: orange;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-weight: bold;
+    color: orange;
+}
+
+.btn {
+    background-color: rgba(255, 165, 0, 0.8);
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    background-color: rgba(255, 165, 0, 1);
+}
+
+.content {
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    text-align: center;
+    z-index: 1;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-position: 50% 70% ;
+    }
+}
